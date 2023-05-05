@@ -14,24 +14,24 @@
 <body>
 
   <h1>Cadastro DevBot</h1>
-<form onsubmit="verificar()" >
+<form onsubmit="verificar(event)" >
 
   
+  <label for="codigo">Login</label>
+  <br>  
+  <input type="text"  id="codigo" placeholder="Digite seu nome">
+  <br>
+  <br>
+  <label for="senha">Digite sua senha</label>
+  <br>
+  <input type="password"  id='senha' placeholder="Digite sua senha">
+  <br>
+  <br>
+  <button type="submit" >Bucar</button>
+  
+  <p id="resultado"></p>
+  
 </form>
-
-<label for="codigo">Login</label>
-<br>  
-<input type="text"  id="codigo" placeholder="Digite seu nome">
-<br>
-<br>
-<label for="senha">Digite sua senha</label>
-<br>
-<input type="password"  id='senha' placeholder="Digite sua senha">
-<br>
-<br>
-<button type="submit" onclick="verificar()">Bucar</button>
-
-<p id="resultado"></p>
 
 
 
